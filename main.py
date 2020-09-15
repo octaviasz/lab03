@@ -7,7 +7,7 @@
 
 def sum_n(num):
   n = int(stuff)
-  if(n<1):
+  if(n>1):
     return n + sum_n(n - 1)
   else:
     return 1
