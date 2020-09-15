@@ -14,9 +14,9 @@ def sum_n(num):
 
 def print_n(s, n):
     numtimes = int(n)
-    word = str (s)
+    word = str(n)
     if (numtimes> 0):
-      print (s)
+      print (f"{s}\n")
       print_n(s,numtimes-1)
     else:
       return ""
@@ -24,7 +24,7 @@ def print_n(s, n):
 
 def run():
   stuff = int(input("Enter an int: "))
-  print(f"sum is {sum_n(stuff)}")
+  print(f"sum is {sum_n(stuff)}\n")
   stuff2 = str(input("Enter a string: "))
   print_n(stuff2,stuff)
 
