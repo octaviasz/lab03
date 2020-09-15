@@ -19,7 +19,7 @@ def print_n(s, n):
       print (f"{s}\n")
       print_n(s,numtimes-1)
     else:
-      return ""
+      return 0
 
 
 def run():
