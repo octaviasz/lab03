@@ -6,11 +6,11 @@
 # Breakout room 6
 
 def sum_n(num):
-  n = int(stuff)
-  if(n>1):
+  n = int(num)
+  if(n>0):
     return n + sum_n(n - 1)
   else:
-    return 1
+    return 0
 
 def print_n(s, n):
     numtimes = int(n)
@@ -19,7 +19,7 @@ def print_n(s, n):
       print (f"{s}\n")
       print_n(s,numtimes-1)
     else:
-      return 0
+      return ""
 
 
 def run():
