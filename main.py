@@ -15,11 +15,11 @@ def sum_n(num):
 def print_n(s, n):
     numtimes = int(n)
     word = str(n)
-    if (numtimes> 1):
+    if (numtimes>0):
       print (f"{s}")
       print_n(s,numtimes-1)
     else:
-      return ""
+      return 0
 
 
 def run():
